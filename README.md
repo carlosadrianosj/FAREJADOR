@@ -12,9 +12,11 @@ versão da ferramenta possui as seguintes opções:
     procura = procura entre os logs o que o usuário digitou                            
     exit = fecha o programa 
 
-requisitos:
+Requisitos:
 * sudo apt install python
 * sudo apt install python3
 
-para executar o programa: 
+Para executar o programa: 
 * sudo python3 farejador.py
+
+Deixei um arquivo de teste disponível! 
