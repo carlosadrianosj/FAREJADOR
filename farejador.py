@@ -14,7 +14,7 @@ print('''
  ░       ▒   ▒▒ ░  ░▒ ░ ▒░ ░ ░  ░▒ ░▒░    ▒   ▒▒ ░ ░ ▒  ▒   ░ ▒ ▒░   ░▒ ░ ▒░
  ░ ░     ░   ▒     ░░   ░    ░   ░ ░ ░    ░   ▒    ░ ░  ░ ░ ░ ░ ▒    ░░   ░ 
              ░  ░   ░        ░  ░░   ░        ░  ░   ░        ░ ░     ░     
-                                                   ░                        
+                                                                          
                        (programador: carlosadrianosj)
           (Ferramenta criada para investigação em arquivo access.log)
                          (Para opções, digite help)
@@ -22,19 +22,15 @@ print('''
 ''')
 
 #verifica se o programa foi executado em modo root
-root = os.geteuid()
-if root == 1000:
-      print("              Este programa precisa ser executado em modo ROOT!!")
-      time.sleep(0.5)
-      print("              Este programa precisa ser executado em modo ROOT!!")
-      time.sleep(0.5)
-      print("              Este programa precisa ser executado em modo ROOT!!")
-      time.sleep(0.5)
-      print("                  Exemplo: sudo python3 farejador.py\n\n\n\n")
-      time.sleep(0.5)
-      os._exit()
-elif root == 0:
-      pass
+permissao_do_usuario = os.geteuid()
+if permissao_do_usuario != 0:
+    for i in range(5):
+        print("              Este programa precisa ser executado em modo ROOT!!\n\n")
+        time.sleep(0.5)        
+    print("                 Exemplo: sudo python3 lazy_nmap_hunter.py")
+    os._exit(0)      
+else:
+    pass
 
 
 caminho_do_arquivo = input("Digite o caminho do arquivo access.log |ex: /var/log/access.log|:")
