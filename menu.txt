@@ -1,8 +1,0 @@
-
-                               __COMANDOS__
-
-    enum = enumera os IP's do arquivo por ordem de acesso (ajuda a reconhecer o IP malicioso)
-    req = irá exibir as requisições feitas por um IP específico
-    tempo = determina o horario de inicio e de termino de acesso do IP especificado
-    procura = procura entre os logs o que o usuário digitou
-    exit = fecha o programa
