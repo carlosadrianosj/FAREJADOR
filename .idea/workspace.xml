@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f05ecf5-b5cb-42de-9e22-be71f255357f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/packet/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class_Dados_Caminho_Arquivos.py" beforeDir="false" afterPath="$PROJECT_DIR$/packet/Class_Dados_Caminho_Arquivos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class_Farejador.py" beforeDir="false" afterPath="$PROJECT_DIR$/packet/Class_Farejador.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class_Utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/packet/Class_Utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/farejador.py" beforeDir="false" afterPath="$PROJECT_DIR$/farejador.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/procedural.py" beforeDir="false" />
-    </list>
+    <list default="true" id="8f05ecf5-b5cb-42de-9e22-be71f255357f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
