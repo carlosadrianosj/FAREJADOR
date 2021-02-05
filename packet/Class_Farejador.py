@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 # -*- encoding: utf-8 -*-
 import os
-from Class_Dados_Caminho_Arquivos import Dados_Caminho_Arquivos
 os.system('clear')
 
 class Farejador:

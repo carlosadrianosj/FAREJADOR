@@ -8,8 +8,8 @@ os.system('clear')
 class Utils:
     def __init__(self):
         self.base_dir = os.path.dirname(os.path.abspath(__file__))
-        self.menu = os.path.join(self.base_dir, 'menu.txt')
-        self.banner = os.path.join(self.base_dir, 'banner.txt')
+        self.menu = os.path.join(self.base_dir, '../menu.txt')
+        self.banner = os.path.join(self.base_dir, '../banner.txt')
 
     def get_banner(self):
         os.system('clear')
